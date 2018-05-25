@@ -852,7 +852,7 @@ def init(store_dir, variant):
         distance_max=1000*km,
         distance_delta=10*km,
         earthmodel_1d=cake.load_model('ak135-f-average.vf'),
-        modelling_code_id='qss',
+        modelling_code_id='atmqssp',
         tabulated_phases=[
             gf.meta.TPDef(
                 id='begin',
