@@ -1177,7 +1177,7 @@ def init(store_dir, variant):
         distance_min=100*km,
         distance_max=1000*km,
         distance_delta=10*km,
-        earthmodel_1d=cake.load_model('ak135-f-average.vf.nd'),
+        earthmodel_1d=cake.load_model('ak135-f-average.vf'),
         modelling_code_id='qssp',
         tabulated_phases=[
             gf.meta.TPDef(
